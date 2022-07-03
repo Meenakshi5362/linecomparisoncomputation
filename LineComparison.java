@@ -38,6 +38,14 @@ public class LineComparison {
 		else 
 
 			System.out.println("The lines are not equal");
+			
+	if(lengthofline<lengthofline2)
+
+        System.out.println("Line 2 is bigger and Line 1 is smaller");
+
+		else
+
+        System.out.println("Line 1 is bigger and Line 2 is smaller");
 
 }
 
