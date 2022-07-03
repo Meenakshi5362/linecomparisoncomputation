@@ -30,5 +30,15 @@ public class LineComparison {
 	len2=(sx2-sx1)*(sx2-sx1)+(sy2-sy1)*(sy2-sy1);// calculating the length of second line
 	double lengthofline2 =Math.sqrt(len2);
 	System.out.println("Lenth of line2 :"+lengthofline2);
+	
+	if(lengthofline==lengthofline2)
+
+			System.out.println("The lines are equal");
+
+		else 
+
+			System.out.println("The lines are not equal");
+
 }
+
 }
